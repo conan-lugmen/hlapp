@@ -1,11 +1,13 @@
+// Creation Date: 13 Jul 2013
+// Author: Fernando Canizo (aka conan) - http://conan.muriandre.com/
+
+
 'use strict';
 
-/* Controllers */
+angular.module('hlApp.controllers', [])
+	.controller('hlAppCtrl', [function() {
+	}])
 
-angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
 
-  }])
-  .controller('MyCtrl2', [function() {
-
-  }]);
+	.controller('configCtrl', [function() {
+	}]);
