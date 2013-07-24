@@ -6,3 +6,11 @@
 body {
 	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
+
+.selected {
+	color: blue; /* default color, may be changed by the app */
+}
+
+.overlapped {
+	color: red; /* don't allow this color to other users */
+}
