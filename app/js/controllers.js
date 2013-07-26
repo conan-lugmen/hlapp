@@ -29,7 +29,7 @@ hlApp.controller('chooseTextCtrl', function($scope, $http, $location, hlData) {
 		];
 
 	$scope.setChoosen = function() {
-		$http.get('/~conan/mockapi/guest/' + $scope.choosenText.id + '/').success(function(data, status, headers, config) {
+		$http.get('/mockapi/guest/' + $scope.choosenText.id + '/').success(function(data, status, headers, config) {
 			if(200 == status) {
 				hlData.text = data.text;
 				hlData.ranges = data.ranges;
